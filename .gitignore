@@ -1,0 +1,14 @@
+# Ignorar node_modules e pastas de build
+node_modules/
+dist/
+
+# Arquivos de ambiente (se existirem)
+.env
+.env.local
+.env.production
+
+# Log e cache
+*.log
+.cache
+.vscode/
+.DS_Store
