@@ -44,7 +44,43 @@ O projeto será publicado em produção após a homologação final pela equipe.
 
 ## 📷 Screenshots
 
-Em breve serão adicionadas capturas de tela da aplicação para ilustrar as funcionalidades e o design.
+Abaixo estão algumas capturas de tela da aplicação **COB Odontologia Integrada**, ilustrando a experiência tanto no desktop quanto no mobile.
+
+---
+
+### 🏠 Página Inicial – `homepage.png`
+
+![Homepage](./public/imagens/homepage.png)
+
+A tela inicial apresenta a identidade visual da clínica e uma navegação clara para os principais serviços. Conta com animações suaves e estrutura otimizada para destacar os diferenciais da empresa.
+
+---
+
+### 🧺 Seção "Varal de Benefícios" – `varal.png`
+
+![Varal de Benefícios](./public/imagens/varal.png)
+
+Essa seção traz um "varal visual" com os principais benefícios oferecidos, como agilidade no atendimento, plano acessível e suporte humanizado. Um componente visual que ajuda a reforçar o valor da proposta.
+
+---
+
+### 🧑‍⚕️ Seção "Sobre a COB" – `sobre.png`
+
+![Sobre a COB](./public/imagens/sobre.png)
+
+Apresentação institucional da clínica, destacando seus princípios, estrutura e atuação no mercado odontológico. Foco na confiança e transparência com o paciente.
+
+---
+
+### 📱 Galeria de Casos (Versão Mobile) – `galeriamobile.png`
+
+![Galeria Mobile](./public/imagens/galeriamobile.png)
+
+Demonstração da responsividade da interface. A galeria de casos de sucesso foi cuidadosamente adaptada para garantir uma navegação fluida e envolvente no mobile.
+
+---
+
+
 
 ---
 
