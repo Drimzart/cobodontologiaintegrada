@@ -32,3 +32,23 @@ git clone https://github.com/Drimzart/cobodontologiaintegrada.git
 cd cob-odontologia-integrada
 npm install
 npm run dev
+```
+
+## 🌐 Link de acesso
+
+O projeto será publicado em produção após a homologação final pela equipe.
+
+🚧 Link em breve: [[https://cob-odontologia.vercel.app](https://cobodontologiaintegrada.vercel.app/)]
+
+---
+
+## 📷 Screenshots
+
+Em breve serão adicionadas capturas de tela da aplicação para ilustrar as funcionalidades e o design.
+
+---
+
+## 🙋‍♂️ Desenvolvido por
+
+[Kaio Murillo](https://linkedin.com/in/kaio-murillo)  
+[GitHub](https://github.com/Drimzart)
