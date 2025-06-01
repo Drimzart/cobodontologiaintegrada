@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 const frases = [
   "Sorrir é um ato de coragem.",
@@ -21,13 +22,32 @@ const imagens = [
 const rotacoes = ["-rotate-3", "rotate-2", "-rotate-2", "rotate-3", "rotate-1"];
 
 export default function Varal() {
+  const [duration, setDuration] = useState(40);
+
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth < 768) {
+        // Mobile (exemplo: até 767px)
+        setDuration(25); // mais rápido no mobile (diminui duração)
+      } else {
+        setDuration(40); // padrão para desktop
+      }
+    }
+
+    handleResize(); // define ao carregar
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const cards = [...frases, ...frases, ...frases]; // triplica para fluidez
+
   return (
     <section className="bg-[#04416a] py-12 overflow-hidden">
       <motion.div
         initial={{ x: "100%" }}
         animate={{ x: "-100%" }}
-        transition={{ repeat: Infinity, duration: 40, ease: "linear" }}
+        transition={{ repeat: Infinity, duration, ease: "linear" }}
         className="flex whitespace-nowrap gap-12 text-white text-lg font-medium items-center"
       >
         {cards.map((frase, i) => {
